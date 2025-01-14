@@ -4,11 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Luiz Fernando <luizfsoliveira.lm@gmail.com>"]
 readme = "README.md"
+packages = [{ include = "app" }]  # Adiciona a pasta do código do projeto
 
 [tool.poetry.dependencies]
 python = "^3.12"
 streamlit = "^1.41.1"
-
 
 [build-system]
 requires = ["poetry-core"]
